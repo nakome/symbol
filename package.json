@@ -1,0 +1,44 @@
+{
+  "name": "symbol",
+  "version": "1.0.0",
+  "description": "Buscador de caracteres HTML",
+  "main": "index.js",
+  "author": "Moncho Varela",
+  "url" : "https://gitlab.com/monchovarela/symbol",
+  "email" : "nakome@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 2 chrome version",
+      "last 2 firefox version",
+      "last 2 safari version"
+    ]
+  }
+}
+
+
+
+
+
+
+
+
+

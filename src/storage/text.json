@@ -1,0 +1,11 @@
+{
+    "title":"Symbol",
+    "description":"Buscador de caracteres Html",
+    "created":"Creado con",
+    "symbol": "Simbolo",
+    "result": "Resultado",
+    "author":{
+        "url": "https://monchovarela.es",
+        "name": "Moncho Varela"
+    }
+}

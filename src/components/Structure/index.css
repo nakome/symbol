@@ -1,0 +1,20 @@
+header,footer{
+    box-sizing: border-box;
+    padding:0.8pt;
+    text-align:center;
+    background:var(--color-secondary);
+    color:var(--color-primary);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    user-select:none;
+    margin: 5pt auto;
+}
+section{
+    box-sizing: border-box;
+    overflow:hidden;
+}

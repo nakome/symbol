@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto:wght@300&family=VT323&display=swap");
+
+:root {
+  /*https://2colors.colorion.co/*/
+  --color-primary:#1b1b1b;
+  --color-secondary:#f8f8f8;
+  
+  --font-family-text: "Roboto", sans-serif;
+  --font-family-headline: "VT323", monospace;
+  --font-family-code: "Inconsolata", monospace;
+  --font-weight-normal: 300;
+  --line-height-normal: 1.6;
+  --border-radius: 0;
+}
+
+::selection{
+  background:var(--color-secondary);
+  color:var(--color-primary);
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  font-family: var(--font-family-text);
+  line-height: var(--line-height-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-normal);
+
+  background: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+a{
+  text-decoration: none;
+  color:var(--color-primary);
+}
+
+
+
